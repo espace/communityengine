@@ -69,7 +69,7 @@ class ClippingsControllerTest < Test::Unit::TestCase
         :tag_list => 'tag1 tag2'
       assert_redirected_to user_clipping_path(users(:quentin), assigns(:clipping))
       clipping = Clipping.find(assigns(:clipping).id)
-      assert_equal ['tag1', 'tag2'], clipping.tag_list
+      assert_equal (['tag1', 'tag2'] -  clipping.tag_list ) ,  []
     end    
   end
 
@@ -103,7 +103,7 @@ class ClippingsControllerTest < Test::Unit::TestCase
     assert_redirected_to user_clipping_path(users(:quentin), assigns(:clipping))
 
     clipping = Clipping.find(assigns(:clipping).id)
-    assert_equal ['tagX', 'tagY'], clipping.tag_list
+    assert_equal (['tagX', 'tagY']  - clipping.tag_list ) , []
   end
   
   def test_should_destroy_clipping

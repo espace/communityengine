@@ -1,0 +1,371 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate
+END
+026_add_countries.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/026_add_countries.rb
+END
+025_create_countries.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/025_create_countries.rb
+END
+020_create_login_slug.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/020_create_login_slug.rb
+END
+051_add_audience_limitation_to_ads.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/051_add_audience_limitation_to_ads.rb
+END
+006_add_comments_tables.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/006_add_comments_tables.rb
+END
+008_add_friendship_statuses.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/008_add_friendship_statuses.rb
+END
+061_changing_non_integer_foreign_keys_to_integer_ones.rb
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/community/!svn/ver/30/trunk/vendor/plugins/community_engine/db/migrate/061_changing_non_integer_foreign_keys_to_integer_ones.rb
+END
+003_create_photos.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/003_create_photos.rb
+END
+033_featured_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/033_featured_users.rb
+END
+007_create_friendship_statuses.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/007_create_friendship_statuses.rb
+END
+001_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/001_create_users.rb
+END
+028_add_country_id_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/028_add_country_id_to_users.rb
+END
+017_add_sessions_table.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/017_add_sessions_table.rb
+END
+058_add_anonymous_commenting_fields.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/058_add_anonymous_commenting_fields.rb
+END
+009_create_clippings.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/009_create_clippings.rb
+END
+010_create_invitations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/010_create_invitations.rb
+END
+044_category_improvements.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/044_category_improvements.rb
+END
+014_add_states.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/014_add_states.rb
+END
+002_add_activation_code_to_user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/002_add_activation_code_to_user.rb
+END
+049_add_activities_count.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/049_add_activities_count.rb
+END
+023_add_denied_friendship_status.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/023_add_denied_friendship_status.rb
+END
+034_add_last_login.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/034_add_last_login.rb
+END
+037_create_offerings.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/037_create_offerings.rb
+END
+019_change_comment_to_text_field.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/019_change_comment_to_text_field.rb
+END
+055_add_published_at_to_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/055_add_published_at_to_posts.rb
+END
+031_news_to_talk.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/031_news_to_talk.rb
+END
+015_create_metro_areas.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/015_create_metro_areas.rb
+END
+005_create_friendships.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/005_create_friendships.rb
+END
+038_add_zag_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/038_add_zag_to_users.rb
+END
+021_add_category_names.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/021_add_category_names.rb
+END
+004_add_tag_support.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/004_add_tag_support.rb
+END
+032_add_contest_fields.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/032_add_contest_fields.rb
+END
+018_create_categories.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/018_create_categories.rb
+END
+012_create_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/012_create_posts.rb
+END
+029_add_us_to_users_with_states.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/029_add_us_to_users_with_states.rb
+END
+036_create_skills.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/036_create_skills.rb
+END
+046_adding_ads.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/046_adding_ads.rb
+END
+054_add_published_as_to_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/054_add_published_as_to_posts.rb
+END
+050_create_initial_schema.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/050_create_initial_schema.rb
+END
+042_add_privacy_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/042_add_privacy_to_users.rb
+END
+062_changing_booleans_with_integer_values_to_be_true_or_false.rb
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/community/!svn/ver/30/trunk/vendor/plugins/community_engine/db/migrate/062_changing_booleans_with_integer_values_to_be_true_or_false.rb
+END
+053_create_favoritables.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/053_create_favoritables.rb
+END
+040_add_category_tips.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/040_add_category_tips.rb
+END
+030_add_users_counter_cache.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/030_add_users_counter_cache.rb
+END
+059_create_messages.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/community/!svn/ver/23/trunk/vendor/plugins/community_engine/db/migrate/059_create_messages.rb
+END
+016_add_metro_areas.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/016_add_metro_areas.rb
+END
+060_still_more_indexes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/community/!svn/ver/22/trunk/vendor/plugins/community_engine/db/migrate/060_still_more_indexes.rb
+END
+024_add_notification_preferences.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/024_add_notification_preferences.rb
+END
+056_create_roles.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/056_create_roles.rb
+END
+052_create_assets.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/052_create_assets.rb
+END
+041_create_events_table.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/041_create_events_table.rb
+END
+045_adding_indexes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/045_adding_indexes.rb
+END
+057_add_more_indexes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/057_add_more_indexes.rb
+END
+047_add_polls.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/047_add_polls.rb
+END
+035_track_emailed.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/035_track_emailed.rb
+END
+043_sql_session_store_setup.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/043_sql_session_store_setup.rb
+END
+022_create_contests.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/022_create_contests.rb
+END
+013_create_states.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/013_create_states.rb
+END
+011_create_homepage_features.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/011_create_homepage_features.rb
+END
+039_create_activities_table.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/039_create_activities_table.rb
+END
+027_add_us_to_existing_metro_areas.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/community/!svn/ver/4/trunk/vendor/plugins/community_engine/db/migrate/027_add_us_to_existing_metro_areas.rb
+END

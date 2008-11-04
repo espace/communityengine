@@ -61,7 +61,7 @@ class PhotosControllerTest < Test::Unit::TestCase
 
       photo = Photo.find(assigns(:photo).id)
       assert_equal users(:quentin), photo.user
-      assert_equal ['tag1', 'tag2'], photo.tag_list
+      assert_equal (['tag1', 'tag2'] - photo.tag_list), []
     end
   end
 
@@ -120,7 +120,7 @@ class PhotosControllerTest < Test::Unit::TestCase
 
     photo = Photo.find(assigns(:photo).id)
     assert_equal "changed_name", photo.name
-    assert_equal ['tagX', 'tagY'], photo.tag_list
+    assert_equal (['tagX', 'tagY'] - photo.tag_list), []
   end
 
   def test_should_fail_to_update_photo

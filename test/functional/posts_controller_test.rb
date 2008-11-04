@@ -56,7 +56,7 @@ class PostsControllerTest < Test::Unit::TestCase
         }
       assert_equal contests(:one), Post.find_by_title("dude").contest
       assert_equal categories(:talk), Post.find_by_title("dude").category
-      assert_equal ['tag1', 'tag2'], Post.find_by_title("dude").tag_list
+      assert_equal (['tag1', 'tag2'] - Post.find_by_title("dude").tag_list), []
       assert_response :redirect
     end
   end

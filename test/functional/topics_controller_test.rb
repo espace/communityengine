@@ -99,7 +99,7 @@ class TopicsControllerTest < Test::Unit::TestCase
     [forums(:rails), users(:aaron)].each &:reload
   
     assert_equal old.collect { |n| n + 1}, counts.call
-    assert_equal ['tag1', 'tag2'], Topic.find(assigns(:topic).id).tag_list
+    assert_equal (['tag1', 'tag2'] - Topic.find(assigns(:topic).id).tag_list), []
   end
 
   # def test_should_create_topic_with_xml
@@ -191,7 +191,7 @@ class TopicsControllerTest < Test::Unit::TestCase
     login_as :sam
     put :update, :forum_id => forums(:rails).id, :id => topics(:ponies).id, :topic => { }, :tag_list => 'tagX tagY'
     assert_redirected_to forum_topic_path(forums(:rails), assigns(:topic))
-    assert_equal ['tagX', 'tagY'], topics(:ponies).reload.tag_list
+    assert_equal (['tagX', 'tagY'] - topics(:ponies).reload.tag_list), []
   end
 
   # def test_should_update_with_xml

@@ -66,7 +66,7 @@ class PostTest < Test::Unit::TestCase
   end  
   
   def test_should_delete_post_activity
-    #Activity.delete_all ## This is not the best Solution in the world
+    Activity.delete_all ## This is not the best Solution in the world
     post = Post.new(:title => 'testing activity tracking', :raw_post => 'will this work?3', :published_as => 'live')
     post.user = users(:quentin)
     post.save!

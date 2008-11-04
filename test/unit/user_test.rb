@@ -171,7 +171,6 @@ class UserTest < Test::Unit::TestCase
     post.save!
     f = friendships(:aaron_receive_quentin_pending)
     f.update_attributes(:friendship_status => FriendshipStatus[:accepted]) && f.reverse.update_attributes(:friendship_status => FriendshipStatus[:accepted])
-    puts "After " +  u.network_activity.size.to_s
     assert !u.network_activity.empty?
   end
   

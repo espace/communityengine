@@ -43,7 +43,7 @@ class ForumsControllerTest < Test::Unit::TestCase
       post :create, :forum => { :name => 'yeah' }, :tag_list => 'tag1 tag2'
 
       forum = Forum.find_by_name('yeah')
-      assert_equal ['tag1', 'tag2'], forum.tag_list
+      assert_equal (['tag1', 'tag2'] - forum.tag_list), []
     end
     
     assert_redirected_to forums_path
@@ -86,8 +86,7 @@ class ForumsControllerTest < Test::Unit::TestCase
     login_as :admin
     put :update, :id => 1, :forum => { }, :tag_list => 'tagX tagY'
     assert_redirected_to forums_path
-
-    assert_equal ['tagX', 'tagY'], Forum.find(1).tag_list
+    assert_equal (['tagX', 'tagY'] - Forum.find(1).tag_list), []
   end
 
   # def test_should_update_forum_with_xml

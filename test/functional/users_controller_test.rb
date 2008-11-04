@@ -215,8 +215,7 @@ class UsersControllerTest < Test::Unit::TestCase
     users(:quentin).save
     put :update, :id => users(:quentin), :tag_list => 'tag1 tag2'
     assert_redirected_to user_path(users(:quentin).reload)
-    puts users(:quentin).tag_list
-    assert_equal users(:quentin).tag_list, ['tag1', 'tag2']
+    assert_equal (['tag1', 'tag2'] - users(:quentin).tag_list), []
   end
 
   def test_should_not_update_user

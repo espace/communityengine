@@ -233,4 +233,3 @@ class TopicsControllerTest < Test::Unit::TestCase
     assert_redirected_to forum_topic_path(forums(:rails), assigns(:topic))
   end
 end
-

@@ -121,7 +121,12 @@ class UserTest < Test::Unit::TestCase
     assert_equal users(:quentin).avatar_photo_url, AppConfig.photo['missing_medium']
     assert_equal users(:quentin).avatar_photo_url(:thumb), AppConfig.photo['missing_thumb']
   end
-    
+  
+  def test_should_get_active_users
+    active_users = User.find_active
+    assert active_users.empty? #none have avatar photos
+  end
+  
   def test_should_find_featured
     featured = User.find_featured
     assert_equal featured.size, 1
@@ -154,16 +159,19 @@ class UserTest < Test::Unit::TestCase
 
   def test_should_have_reached_daily_friend_request_limit
     Friendship.daily_request_limit = 1
-    
     assert !users(:quentin).has_reached_daily_friend_request_limit?
-    f = Friendship.create!(:user => users(:quentin), :friend => users(:kevin), :initiator => true, :friendship_status => FriendshipStatus[:pending])
+    Friendship.create!(:user => users(:quentin), :friend => users(:kevin), :initiator => true, :friendship_status => FriendshipStatus[:pending])
     assert users(:quentin).has_reached_daily_friend_request_limit?
   end
   
   def test_get_network_activity
     u = users(:quentin)
+    post = Post.new(:title => 'testing activity tracking', :raw_post => 'will this work?3', :published_as => 'live')
+    post.user = users(:aaron)
+    post.save!
     f = friendships(:aaron_receive_quentin_pending)
     f.update_attributes(:friendship_status => FriendshipStatus[:accepted]) && f.reverse.update_attributes(:friendship_status => FriendshipStatus[:accepted])
+    puts "After " +  u.network_activity.size.to_s
     assert !u.network_activity.empty?
   end
   
@@ -173,16 +181,6 @@ class UserTest < Test::Unit::TestCase
       comment = Comment.create!(:comment => "foo", :user => users(:aaron), :commentable => user, :recipient => user)
     end
     assert_equal 2, user.comments_activity.size
-  end
-  
-  def test_should_deactivate
-    assert users(:quentin).active?
-    users(:quentin).deactivate
-    assert !users(:quentin).reload.active?
-  end
-
-  def test_should_return_full_location
-    assert_equal "Minneapolis / St. Paul", users(:quentin).full_location    
   end
   
   protected

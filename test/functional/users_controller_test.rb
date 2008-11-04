@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../test_helper'
 
-class UsersControllerTest < ActionController::TestCase
+class UsersControllerTest < Test::Unit::TestCase
   # Be sure to include AuthenticatedTestHelper in test/test_helper.rb instead
   # Then, you can remove it from this and the units test.
   include AuthenticatedTestHelper
@@ -135,14 +135,6 @@ class UsersControllerTest < ActionController::TestCase
       assert_response :success
     end
   end
-
-  def test_should_deactivate_and_logout
-    login_as :quentin
-    assert users(:quentin).active?
-    put :deactivate, :id => users(:quentin).id
-    assert !users(:quentin).reload.active?    
-    assert_redirected_to new_session_path
-  end
   
   def test_should_not_activate_nil
     get :activate, :activation_code => nil
@@ -151,9 +143,8 @@ class UsersControllerTest < ActionController::TestCase
   
   def test_should_activate_user
     users(:quentin).activated_at = nil
-    users(:quentin).activation_code = nil
+    users(:quentin).activation_code = "quentin_activation_code"
     users(:quentin).save!
-    assert_nil User.authenticate('quentin', 'test')
     get :activate, :id => users(:quentin).activation_code
     assert_equal users(:quentin), User.authenticate('quentin', 'test')
   end  
@@ -224,6 +215,7 @@ class UsersControllerTest < ActionController::TestCase
     users(:quentin).save
     put :update, :id => users(:quentin), :tag_list => 'tag1 tag2'
     assert_redirected_to user_path(users(:quentin).reload)
+    puts users(:quentin).tag_list
     assert_equal users(:quentin).tag_list, ['tag1', 'tag2']
   end
 
@@ -317,7 +309,7 @@ class UsersControllerTest < ActionController::TestCase
     assert_no_difference ActionMailer::Base.deliveries, :length do
       post :resend_activation, :email => users(:quentin).email
       assert_response :success
-      assert_equal "Activation e-mail could not be sent. Perhaps that user is already active?", flash[:notice]
+      assert_equal 'activation_email_not_sent_message'.l, flash[:notice]
     end    
   end
 
@@ -325,7 +317,7 @@ class UsersControllerTest < ActionController::TestCase
     assert_no_difference ActionMailer::Base.deliveries, :length do
       post :resend_activation, :email => "foo@bar.com"
       assert_response :success
-      assert_equal "Activation e-mail could not be sent. Perhaps that user is already active?", flash[:notice]
+      assert_equal "activation_email_not_sent_message".l, flash[:notice]
     end    
   end
 

@@ -1,5 +1,7 @@
 class Comment < ActiveRecord::Base
 
+    include ActiveRecordHelpers
+    
   belongs_to :commentable, :polymorphic => true
   belongs_to :user
   belongs_to :recipient, :class_name => "User", :foreign_key => "recipient_id"
@@ -39,11 +41,11 @@ class Comment < ActiveRecord::Base
   def previous_commenters_to_notify
     # only send a notification on recent comments
     # limit the number of emails we'll send (or posting will be slooowww)
-    User.find(:all, 
+    User.find(:all , :select => "users.id , users.login , users.email , users.avatar_id , users.description ",
       :conditions => ["users.id NOT IN (?) AND users.notify_comments = ? 
                       AND commentable_id = ? AND commentable_type = ? 
                       AND comments.created_at > ?", [user_id, recipient_id.to_i], true, commentable_id, commentable_type, 2.weeks.ago], 
-      :include => :comments_as_author, :group => "users.id", :limit => 20)    
+      :include => :comments_as_author, :group => "#{table_columns_seperated_by_commas('User')}  , #{table_columns_seperated_by_commas('Comment')}", :limit => 20).uniq    
   end    
     
   def commentable_name
@@ -57,8 +59,6 @@ class Comment < ActiveRecord::Base
         commentable.description || "Clipping from #{commentable.user.login}"
       when 'photo'
         commentable.description || "Photo from #{commentable.user.login}"
-      else 
-        commentable.class.to_s.humanize
     end
   end
 

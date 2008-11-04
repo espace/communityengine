@@ -1,5 +1,6 @@
 #en: about_site: About {site}
 about_site: About {site}
+thanks_for_activating_your_account: Thanks for activating your account!
 #en: account_activation_error: Account activation failed. Your account may already be active. Try logging in or e-mail {email} for help.
 account_activation_error: Account activation failed. Your account may already be active. Try logging in or e-mail {email} for help.
 #en: activation_email_not_sent_message: 
@@ -118,8 +119,3 @@ we_just_sent_an_e_mail_to: We just sent an e-mail to <b>{email}</b> that will le
 welcome_message: Welcome! {login_link} or {signup_link}
 #en: write_new_post: Write a '{category}' post
 write_new_post: Write a '{category}' post
-
-deactivate_link: Click here to deactivate your account
-deactivate_tip: Deactivating your account will remove your profile from the site. 
-deactivate_confirmation: Are you sure you want to deactivate your account?
-deactivate_completed: Thanks. Your account has been deactivated and you have been logged out.

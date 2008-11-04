@@ -10,6 +10,9 @@ ActionController::IntegrationTest.fixture_path = Test::Unit::TestCase.fixture_pa
 class Test::Unit::TestCase
   include AuthenticatedTestHelper
   
+  self.use_transactional_fixtures = true
+  self.use_instantiated_fixtures  = false
+  
   def self.all_fixtures
     fixtures :forums, :users, :sb_posts, :topics, :moderatorships, :monitorships, :categories
   end  

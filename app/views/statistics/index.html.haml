@@ -50,7 +50,7 @@
       , Female:
       = number_to_percentage @percent_female
     %h3
-      Featured Writers
+      "Featured Writers".l
     %ul
       - @featured_writers.each do |w|
         %li= link_to w.login, statistics_user_path(w)

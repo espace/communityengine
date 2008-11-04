@@ -5,6 +5,7 @@ require 'pp'
 class BaseController < ApplicationController
   include AuthenticatedSystem
   include LocalizedApplication
+  include ActiveRecordHelpers
   around_filter :set_locale  
   before_filter :login_from_cookie  
   skip_before_filter :verify_authenticity_token, :only => :footer_content
@@ -78,7 +79,7 @@ class BaseController < ApplicationController
   end
   
   def find_user
-    if @user = User.active.find(params[:user_id] || params[:id])
+    if @user = User.find(params[:user_id] || params[:id])
       @is_current_user = (@user && @user.eql?(current_user))
       unless logged_in? || @user.profile_public?
         flash.now[:error] = "This user's profile is not public. You'll need to create an account and log in to access it.".l
@@ -105,7 +106,7 @@ class BaseController < ApplicationController
       FROM taggings, tags 
       WHERE tags.id = taggings.tag_id "
     sql += " AND taggings.taggable_type = '#{type}'" unless type.nil?      
-    sql += " GROUP BY tag_id"
+    sql += " GROUP BY tag_id , tags.id , tags.name "
     sql += " ORDER BY #{order}"
     sql += " LIMIT #{limit}" if limit
     Tag.find_by_sql(sql).sort{ |a,b| a.name.downcase <=> b.name.downcase}
@@ -152,11 +153,16 @@ class BaseController < ApplicationController
   end
 
   def commentable_comments_url(commentable)
-    if commentable.owner && commentable.owner != commentable
+    if commentable.owner
       "#{polymorphic_path([commentable.owner, commentable])}#comments"      
     else
       "#{polymorphic_path(commentable)}#comments"      
     end    
+  end
+
+
+  def table_columns_seperated_by_commas(table)
+    eval(table).column_names.collect { |x|  eval(table).table_name + '.' + x }.join(' , ') 
   end
 
 end

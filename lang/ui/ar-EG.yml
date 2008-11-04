@@ -1,0 +1,637 @@
+#en: about: About
+about: عن
+#en: about_me: About Me
+about_me: عنى
+#en: about_site: About {site}
+about_site: عن {site}
+#en: about_you: About You
+about_you: عنك
+#en: account_activation_error: Account activation failed. Your account may already be active. Try logging in or e-mail {email} for help.
+account_activation_error:  لم يتم التفعيل ، ربما يوجد حساب بنفس البريد الالكترونى  {email}
+#en: account_settings: Account settings
+#en: activation_email_not_sent_message: 
+activation_email_not_sent_message: رسالة التفعيل لم يتم ارسالها ربما يكون المستخدم نشط فعلا
+#en: activation_email_resent_message: 
+activation_email_resent_message:  ليس فى القائمة السوداء {admin_email} تم اعادة ارسال رسالة التفعيل ، اذهب لبريدك الالكترونى للتاكد من ان  
+account_settings: إعدادات الحساب
+#en: actions: Actions
+actions: الإجراءات
+#en: activate: Activate
+activate: تفعيل
+#en: active: active
+active: نشط
+#en: active_users: Active Users
+active_users: الأعضاء النشطون
+#en: activity_from_your_network: Activity from your network
+activity_from_your_network:  نشاطات من الشبكة
+#en: ad_was_successfully_created: Ad was successfully created.
+ad_was_successfully_created: "تم حفظ الإعلان بنجاح"
+#en: ad_was_successfully_updated: Ad was successfully updated.
+ad_was_successfully_updated: "تم تعديل الإعلان بنجاح"
+#en: add_a_photo: Add a photo
+add_a_photo: "إضافة صورة"
+#en: add_a_poll: Add a poll
+add_a_poll: إضافة استفتاء
+#en: add_comment: Add Comment
+add_comment: "إضافة تعليق"
+#en: add_some_friends_to_get_started: Add some friends to get started!
+add_some_friends_to_get_started: "أضف بعض الأصدقاء"
+#en: add_your_comment: Add Your Comment!
+add_your_comment: "أضف تعليقك"
+#en: added_a_clipping: "added a clipping:"
+added_a_clipping: "أضيفت قصاصة"
+#en: added_to_a_forum_topic: "added to a forum topic:"
+added_to_a_forum_topic: "اضيف لموضوع فى منتدى"
+#en: admin: Admin
+admin: مدير
+#en: admin_dashboard: Admin dashboard
+admin_dashboard: "صفحة المدير"
+#en: ads: Ads
+ads: إعلانات
+#en: advertise: Advertise
+advertise: إعلن
+#en: advertise_on: Advertise on
+advertise_on: أعلن عن
+#en: after_signing_up_youll_receive_an_e_mail_confirmation_message: After signing up, you'll receive an e-mail confirmation message.
+after_signing_up_youll_receive_an_e_mail_confirmation_message: "سوف يصلك رسالة على بريدك الالكترونى للتاكيد بعد الاشتراك"
+#en: all_clippings_tagged: All clippings tagged {tag_name}
+all_clippings_tagged: كل القصاصات بالعلامة 
+#en: all_photos_tagged: All photos tagged {tag_name}
+all_photos_tagged: كل الصور بالعلامة 
+#en: all_posts_tagged: All posts tagged {tag_name}
+all_posts_tagged: " المشاركات بالعلامة  {tag_name}"
+#en: all_tags: All tags
+all_tags: جميع العلامات 
+#en: all_users_tagged: All users tagged {tag_name}
+all_users_tagged: المستخدمين بالعلامات  {tag_name}
+#en: already_have_an_account: Already have an account?
+already_have_an_account:  هل عندك اشتراك
+have_an_account:   عندك اشتراك
+#en: an_error_occurred: An error occurred
+an_error_occurred: حدث خطأ بالنظام
+#en: are_you_sure: Are you sure?
+are_you_sure: هل انت متأكد ؟
+#en: assume_id: Assume ID
+assume_id: "كن انت هذا العضو"
+#en: audience: Audience
+audience: الجمهور
+#en: author: Author
+author: الكاتب
+#en: back: Back
+back: "رجوع"
+#en: birthday: Birthday
+birthday: تاريخ الميلاد 
+#en: birthday__gender: Birthday & Gender
+birthday__gender: تاريخ الميلاد و النوع
+#en: blog: Blog
+blog: المدونة
+#en: blog_posts: Blog posts
+blog_posts: المواضيع
+#en: body_text: Body Text
+body_text: المحتوى
+#en: browse_all_members: browse all members
+browse_all_members: تصفح الأعضاء
+#en: by_looking_at_the: by looking at the
+by_looking_at_the: بالنظر إلى 
+#en: cancel: Cancel
+cancel: إلغاء
+#en: cancel_and_go_back_to_my_posts: cancel and go back to my posts
+cancel_and_go_back_to_my_posts: "إلغاء والرجوع لمشاركاتى"
+#en: categories: Categories
+categories: التصنيفات
+#en: category: Category
+category: التصنيف
+#en: category_was_successfully_created: Category was successfully created.
+category_was_successfully_created: تم إضافة التصنيف بنجاح
+#en: choose_a_photo_for_your_profile: "Choose a photo for your profile:"
+choose_a_photo_for_your_profile: "اختر صورة شخصية لك "
+#en: choose_a_photo_to_upload: "Choose a photo to upload:"
+choose_a_photo_to_upload: "اختر صورة "
+#en: choose_your_location: Choose your location
+choose_your_location: "اختر مكانك"
+#en: click_here_to_retrieve_it: Click here to retrieve it
+click_here_to_retrieve_it: اضغط هنا للاسترجاع
+#en: click_here_to_sign_up: Click here to sign up
+click_here_to_sign_up: اضغط هنا للاشتراك
+#en: click_the_activation_link_in_the_e_mail_to_log_in: Click the activation link in the e-mail to log in.
+click_the_activation_link_in_the_e_mail_to_log_in: اضغط على رابط التفعيل فى الرسالة الالكترونية للدخول على الموقع
+#en: clipping_comments: Clipping Comments
+clipping_comments: تعليقات على القصاصات
+#en: clipping_was_successfully_created: Clipping was successfully created.
+clipping_was_successfully_created: تم إضافة القصاصة بنجاح
+#en: clippings: Clippings
+clippings: القصاصات
+#en: close_this_message: Close this message
+close_this_message: أغلق هذة الرسالة
+#en: comma_separated_keywords_that_describe_you: Comma-separated keywords that describe you.
+comma_separated_keywords_that_describe_you: " كلمات مفصولة بفصلات تصفك"
+#en: comment_character_limit: (2000 character limit)
+comment_character_limit: ( الحد الاقصى 2000 حرف )
+#en: comment_could_not_be_deleted: Comment could not be deleted.
+comment_could_not_be_deleted: ". لا يمكن حذف التعليق "
+#en: comment_save_error: Your comment couldn't be saved.
+comments: تعليقات
+#en: comment_was_successfully_created: Comment was successfully created.
+comment_was_successfully_created: تم إضافة التعليق بنجاح
+community_tagline: مجتمع لكل العرب 
+#en: contest_was_successfully_created: Contest was successfully created.
+contest_was_successfully_created: تم غضافة المسابقة بنجاح
+#en: contests: Contests
+contests: المسابقات
+#en: country: Country
+country: البلد
+#en: create: Create
+create: اضف
+#en: create_an_account: Create an account
+create_an_account: اشترك
+#en: create_your_account: Create Your Account
+create_your_account: اشترك الان
+#en: custom_friendly_local: 
+custom_friendly_local: "تعديل ، ودى ، محلى "
+#en: dashboard: Dashboard
+dashboard: "صفحتك"
+#en: dashboard_friends: Once you start adding friends, you'll be able to track their activity on {site} here
+dashboard_friends: بمجرد ان تبدأ باضافة الأصدقاء ، سوف تصبح قادرا على متابعة نشاطتهم على { site } 
+#en: date_created: Date Created
+date_created: تاريخ الاضافة
+#en: date_published: Date Published
+date_published: "تاريخ النشر"
+#en: delete_this_event: Delete this event
+delete_this_event: " احذف هذا الحدث"
+#en: description: Description
+description: الوصف
+#en: destroy: Destroy
+destroy: "احذف"
+#en: dont_have_an_account: Don't have an account?
+dont_have_an_account: لا تملك اشتراك
+#en: dont_wait_its: Don't wait! It's
+dont_wait_its: اشترك الان
+#en: draft: draft
+draft: مسودة
+#en: e_mail: E-mail
+e_mail: البريد الالكترونى
+#en: e_mail_address: E-mail address
+e_mail_address: عنوان البريد الالكترونى
+#en: edit: Edit
+edit: تعديل
+#en: edit_account: Edit account
+edit_account: تعديل الحساب
+#en: edit_profile: Edit profile
+edit_profile: تعديل البيانات
+#en: edit_this_event: Edit this event
+edit_this_event: عدل هذا الحدث
+#en: editing_ad: Editing ad
+editing_ad: تعديل الاعلان
+#en: editing_category: Editing category
+editing_category: تعديل التصنيف
+#en: editing_post: Editing post
+editing_post: تعديل المشاركة
+#en: email_signup_thanks: Thanks for signing up! You should receive an e-mail confirmation shortly at {email}
+email_signup_thanks: شكرا لاشتراكك ، سوف يصلك رسالة تأكيد قريبا
+#en: end_date: End date
+end_date: تاريخ الانتهاء
+#en: enter_e_mail_addresses: Enter e-mail addresses
+enter_e_mail_addresses: ادخل البريد الالكترونى
+#en: enter_your_email_address: "Enter your email address:"
+enter_your_email_address: "ادخل بريدك الالكترونى"
+#en: event_was_successfully_created: Event was successfully created.
+event_was_successfully_created: تم إضافة الحدث بنجاح
+#en: events: Events
+events: احداث
+#en: explore_site: Explore {site}
+explore_site: استكشف الموقع
+#en: faq: FAQ
+faq: أسئلة
+#en: female: Female
+female: أنثى
+featured_writers: قراء مفضلون
+#en: find_an_expert: Find an Expert
+find_an_expert: أبحث عن خبير
+#en: forgot_your_username: Forgot your username?
+forgot_your_username: نسيت اسم المستخدم ؟
+#en: forums: Forums
+forums: منتديات
+#en: frequency: Frequency
+frequency: "عدد مرات التكرار"
+#en: frequent_asked_questions: Frequent Asked Questions
+frequent_asked_questions: "أسئلة معتادة"
+#en: frequently_asked_questions: Frequently Asked Questions
+frequently_asked_questions: "أسئلة معتادة"
+#en: friends: Friends
+friends: أصدقاء
+#en: friendship_could_not_be_created: Friendship could not be created
+friendship_could_not_be_created: لانستطيع اضافة رابط الصداقة
+#en: friendship_request_detail: Friendship request detail
+friendship_request_detail: تفاصيل طلب الصداقة
+#en: friendship_requested: Requested friendship with {friend}.
+friendship_requested: طلب الصداقة
+#en: gender: Gender
+gender: النوع
+#en: get_popular: Get popular.
+get_popular: ". اصبح مشهورا"
+#en: get_started_banner: Get started with <a href="/">{site}</a> today!
+get_started_banner: اهلا
+#en: get_started_invite_some_friends: "Get Started: Invite some friends!"
+get_started_invite_some_friends: "ابدا ، ادع بعض الاصدقاء"
+#en: get_started_tell_us_about_yourself: "Get Started: Tell us about yourself"
+get_started_tell_us_about_yourself: "ابدا ، اخبرنا عن نفسك "
+#en: get_started_upload_a_profile_photo: "Get Started: Upload a profile photo"
+get_started_upload_a_profile_photo: "ابدا ، اضف صورة شخصية "
+#en: go: Go
+go: أذهب
+#en: go_check_your_e_mail: Go check your e-mail!
+go_check_your_e_mail: " اذهب لفحص بريدك الالكترونى"
+#en: go_to_your_profile: Go to your profile
+go_to_your_profile: اذهب لصفحة بياناتك
+#en: have_an_account_: "Have an account? "
+have_an_account_: تملك حساب؟
+#en: have_something_to_contribute: Have something to contribute?
+have_something_to_contribute: لديك شىئ لتضيفة ؟
+#en: help: Help
+help: مساعدة
+home: الرئيسية
+#en: homepage_banner_msg: CommunityEngine is the best way to go from zero to hero in no time
+homepage_banner_msg: مجتعات العرب اقصر طريق للنجاح من الصفر
+#en: homepage_banner_signup_prompt: See how it works
+homepage_banner_signup_prompt: انظر كيف تعمل
+#en: inactive: inactive
+inactive: غير نشط
+#en: invitation_was_successfully_created: Invitation was successfully created.
+invitation_was_successfully_created: تم ارسال الدعوة بنجاح
+#en: invite_message: The more people you invite the better {site} becomes.
+invite_message: ادع اصدقائك
+#en: invite_some_customers: Invite some customers!
+invite_some_customers: ادع بعض عملائك
+#en: invite_your_friends_to_join: Invite Your Friends To Join!
+invite_your_friends_to_join: ادع اصدقائك
+#en: left_a_comment: "left a comment:"
+left_a_comment: "ترك تعليق"
+#en: links: Links
+links: روابط
+#en: loading_recent_content: Loading recent content...
+loading_recent_content: تحميل احدث المحتويات
+#en: log_in: Log in
+log_in: ادخل
+#en: log_in_to_leave_a_comment: Log in to leave a comment
+log_in_to_leave_a_comment: ادخل لتترك تعليق
+#en: log_in_to_site: Log in to {site}
+log_in_to_site: ادخل على الموقع
+#en: log_out: Log Out
+log_out: خروج
+#en: logged_in: "Logged in:"
+logged_in: "داخل الموقع"
+#en: logged_into_the_site: logged into the site
+logged_into_the_site: "داخل الموقع"
+#en: login: Login
+login: ادخل
+#en: male: Male
+male: "ذكر"
+#en: manage_my: "Manage my:"
+manage_my: يدار بواسطة
+#en: manage_posts: Manage Posts
+manage_posts: "ادارة المشاركات"
+#en: members: Members
+members: الاعضاء
+#en: metro_area_was_successfully_created: MetroArea was successfully created.
+metro_area_was_successfully_created: تم أضافة محطة المترو 
+#en: more_about_you: More about you
+more_about_you: "المزيد عنك"
+#en: my_friends: My Friends
+my_friends: اصدقائى
+#en: my_profile: My Profile
+my_profile: بياناتى
+#en: my_recent_comments: My recent comments
+my_recent_comments: احدث التعليقات
+#en: name: Name
+name: الأسم
+#en: navigation_menu_text: Navigation menu text
+navigation_menu_text: "الكتابة داخل القائمة"
+#en: need_to_contact_us: Need to contact us?
+need_to_contact_us: اتصل بنا
+#en: new_ad: New Ad
+new_ad: اعلان جديد
+#en: new_category: New category
+new_category: تصنيف جديد
+#en: new_photo: New photo.
+new_photo: صورة جديدة
+#en: new_post: New post
+new_post: مشاركة جديدة
+#en: new_post_for_category: New {category}
+new_post_for_category: "مشاركة جديدة ى تصنيف { category }"
+#en: new_post_text: New Post text
+new_post_text: محتوى المشاركة 
+#en: no_comments_found: Sorry, we couldn't find any comments for that {type}
+no_comments_found: لايوجد تعليقات
+#en: no_tags: No tags
+no_tags: "لايوجد علامات"
+#en: offering_was_successfully_created: Offering was successfully created.
+offering_was_successfully_created: .تم اضافة العرض بنجاح
+#en: optional: (optional)
+optional: (اختيارى)
+#en: optional_keywords_describing_this_post_separated_by_commas: (optional keywords describing this post, separated by commas)
+optional_keywords_describing_this_post_separated_by_commas: "(كلمات اختيارية تصف الموضوع ، بين كل كلمتين فاصلة )"
+#en: password: Password
+password: كلمة مرور
+#en: people: People
+people: الناس
+#en: people_who_sign_up_using_your_invitation_will_automatically_be_added_as_your_friends: People who sign up using your invitation will automatically be added as your friends.
+people_who_sign_up_using_your_invitation_will_automatically_be_added_as_your_friends: "من سيشترك باستخدام دعواتك ، سيتم اضافتة كصديق مباشرة"
+#en: permanently_delete_this_event: Permanently delete this event?
+permanently_delete_this_event: "احذف هذا الحدث نهائيا"
+#en: photo_comments: Photo Comments
+photo_comments: تعليقات الصور
+#en: photo_message: Your profile photo represents you on {site}. You can change it later.
+photo_message: صورتك الشخصية تمثلك على الموقع ، يمكنك تغييرها لاحقا
+#en: photo_was_successfully_created: Photo was successfully created.
+photo_was_successfully_created: .تم اضافة الصورة بنجاح
+#en: photos: Photos
+photos: صور
+#en: photos_should_be_x_pixels: Photos should be 300x300 pixels.
+photos_should_be_x_pixels: "الصور يجب ان تكون مقاس 300 *300 بيكسل"
+#en: please_log_in: Please log in.
+please_log_in: من فضلك ادخل على الموقع
+#en: please_post_something_at_least: Please post something at least...
+please_post_something_at_least: من فضلك ،انشر موضوع
+#en: plural_posts: "{count} posts"
+plural_posts: "المشاركات"
+#en: popular: Popular
+popular: "مشهورة"
+#en: popular_catgory: Popular {name}
+popular_catgory: "التصنيفات المشهورة"
+#en: popular_posts: Popular Posts
+popular_posts: "المشاركات المشهورة"
+#en: post_an_event: Post an event
+post_an_event: اضف حدث
+#en: post_created_for_category: Your '{category}' post was successfully created.
+post_created_for_category: "لقد تم اضافة مشاركتك للتصنيف بنجاح"
+#en: postal_code: "Postal code:"
+postal_code: "الرقم البريدى"
+#en: posts: Posts
+posts: "مشاركات"
+#en: posts_saved_with_draft_status_wont_appear_in_your_blog_until_you_publish_them: Posts saved with 'draft' status won't appear in your blog until you publish them.
+posts_saved_with_draft_status_wont_appear_in_your_blog_until_you_publish_them: "المشاركات المحفظة كمسودات لن تظهر فى مدونتك حتى يتم نشرها"
+#en: profile: Profile
+profile: بيانات
+#en: profile_comments: Profile Comments
+profile_comments: تعليق على البيانات 
+#en: profile_photo: Profile Photo
+profile_photo: صورة شخصية
+#en: published: Published
+published: "نشرت"
+#en: re_type_your_password_to_confirm: "Re-type your password to confirm:"
+read_more: "أقرا المزيد"
+re_type_your_password_to_confirm: "ادخل كلمو المرور للتأكيد"
+#en: recent: Recent
+recent: احدث
+this_month's_best: الافضل هذا الشهر
+#en: looking_for_most_x: 
+looking_for_most_x: تبحث عن {link} ؟
+#en: recent_blog_posts: Recent Blog Posts
+recent_blog_posts: "احدث المشاركات فى المدونة"
+#en: recent_posts: Recent Posts
+recent_posts: "احدث المشاركات"
+#en: recommended_posts: Recommended Posts
+recommended_posts: " المشاركات المرشحة"
+#en: related_clippings_all_members: Related Clippings (all members)
+related_clippings_all_members: ( القصاصات المرتبطة ( جميع الاعضاء  
+#en: related_photos_all_members: Related Photos (all members)
+related_photos_all_members: ( الصور المرتبطة ( جميع الاعضاء 
+#en: related_posts: Related Posts
+related_posts: "المشاركات المرتبطة"
+#en: related_tags: Related Tags
+related_tags: "العلامات المرتبطة"
+#en: remember_me: Remember me
+remember_me: تذكرنى
+#en: remember_you_can_always_change_this_later: Remember, you can always change this later.
+remember_you_can_always_change_this_later: "تذكر انه بانه دائما يمكنك دائما تغيير ذلك لاحقا"
+#en: required: (required)
+required: (اجبارى)
+#en: required_we_will_send_a_confirmation_e_mail_to_the_address_you_enter: "(Required: We will send a confirmation e-mail to the address you enter.)"
+required_we_will_send_a_confirmation_e_mail_to_the_address_you_enter:   "سيتم ارسال رسالة تفعيل الى عنوان البريد الالكترونى الذى ستدخله"
+#en: required_you_must_be_at_least__years_old_to_sign_up: "(Required: you must be at least 13 years old to sign up.)"
+required_you_must_be_at_least__years_old_to_sign_up: "يجب لن تكو على الاقل 13 عاما لتشترك"
+#en: required_your_username_must_not_contain_numerals_spaces_or_special_characters: "(Required: Your username must not contain numerals, spaces or special characters.)"
+required_your_username_must_not_contain_numerals_spaces_or_special_characters: "يجب الا يحتوى اسم العضو على ارقام او مسافات او حروف خاصة"
+#en: reset_my_password: Reset my password
+reset_my_password: "اعد ضبط كلمة المرور الخاصة بى"
+#en: rss: RSS
+rss: تلقيم
+#en: rss_feed: RSS feed
+rss_feed: تلقيم
+#en: run: Run
+run: ابدا
+#en: save: Save
+save: حفظ
+#en: save_and_continue_to_step_three: Save, and continue to step three
+save_and_continue_to_step_three: حفظ و اكمل للخطوة الثالثة
+#en: save_changes: Save Changes
+save_changes: "حفظ التغييرات"
+#en: save_post_as: "Save post as:"
+save_post_as: "حفظ المشاركة "
+#en: sb_post_was_deleted: Post '{title}' was deleted.
+sb_post_was_deleted: تم حذف الرد
+#en: search_users: Search Users
+search_users: ابحث فى الاعضاء
+#en: see_all: SEE ALL
+see_all: انظر جميع
+#en: send_invitations: Send Invitations!
+send_invitations: !ارسل الدعاوى
+#en: send_me_my_username: Send me my username
+send_me_my_username: ارسل لى اسم العضو الخاص بى
+#en: service_could_not_be_deleted: Service could not be deleted.
+service_could_not_be_deleted: ".لا نستطيع حذف الخدمة "
+#en: show: Show
+show: اظهر
+#en: show_category: {category}
+show_category: اظهر تصنيف { category }
+#en: showing_ad: Showing Ad
+showing_ad: اظهار الاعلان
+#en: showing_metro_area_details: Showing Metro Area Details
+showing_metro_area_details: إظهار تفاصيل محطات المترو
+#en: sign_up: Sign Up!
+sign_up: اشترك
+#en: sign_up_for_an_account: Sign up for an account.
+sign_up_for_an_account: .اشترك الان
+#en: singular_posts: "{count} post"
+singular_posts:  مشاركة
+#en: site_members: "{site} members"
+site_members: اعضاء الموقع 
+#en: skill_was_successfully_created: Skill was successfully created.
+skill_was_successfully_created: ". تم اضافة المهارة بنجاح"
+#en: skills: Skills
+skills: "مهارت"
+#en: skip_this_and_go_to_your_profile: Skip this and go to your profile
+skip_this_and_go_to_your_profile:  "تخطى هذة الخطوة و اذهب لصفحة بياناتك"
+#en: skip_this_step: Skip this step
+skip_this_step: "تخطى هذة الخطوة"
+#en: small_profile: "{user} doesn't have much here yet. Stay tuned."
+small_profile: هذا العضو لم يدخل الا بيانات قليلة
+#en: sorry_there_was_an_error: Sorry, there was an error.
+sorry_there_was_an_error:  نعتذر ، يوجد خطأ
+#en: sorry_we_dont_recognize_that_email_address: Sorry. We don't recognize that email address.
+sorry_we_dont_recognize_that_email_address: "لايوجد هذا البريد الالكترونى"
+#en: spread_the_word: Spread the word
+spread_the_word: "انشر الموضوع"
+#en: start_date: Start date
+start_date: تاريخ البدء
+staff_writers: قراء مفضلون
+#en: started_a_topic: "started a topic:"
+started_a_topic: "بدء موضوع"
+#en: state: State
+state: حالة
+#en: statistics: Statistics
+statistics: احصائيات
+#en: stats: Stats
+stats: احصائيات
+#en: status: Status
+status: الحالة
+#en: tag_does_not_exists: The tag {tag} does not exist
+tag_does_not_exists: لاتوجد هذة العلامة
+#en: tags: Tags
+tags: العلامات
+#en: tags_are_comma_separated_keywords_that_describe_you: Tags are comma-separated keywords that describe you.
+tags_are_comma_separated_keywords_that_describe_you: ". العلامات هى كلمات تدل عليك ، افصل بين كل كلمتين بفاصلة"
+#en: thanks_for_activating_your_account: Thanks for activating your account!
+thanks_for_activating_your_account: ".شكرا لتفعيل حسابك"
+#en: thanks_youre_now_logged_in: Thanks! You're now logged in.
+thanks_youre_now_logged_in: شكرا ، انت الان داخل الموقع
+#en: the_comment_was_deleted: The comment was deleted
+the_comment_was_deleted: ".تم حذف التعليق"
+#en: the_friendship_was_accepted: The friendship was accepted.
+the_friendship_was_accepted: تم قبول طلب الصداقة
+#en: the_friendship_was_denied: The friendship was denied.
+the_friendship_was_denied: تم رفض طلب الصداقة
+#en: the_service_was_deleted: The service was deleted.
+the_service_was_deleted: ". تم حذف هذة الخدمة"
+#en: the_user_was_activated: The user was activated
+the_user_was_activated: تم تفعيل هذا العضو
+#en: the_user_was_deleted: The user was deleted.
+the_user_was_deleted: ". لقد تم حذف هذا العضو"
+#en: this_is_your_dashboard: This is your dashboard.
+this_is_your_dashboard: ".هذة هى صفحتك الرئيسية"
+#en: this_topic_is_locked: This topic is locked.
+this_topic_is_locked: .هذا الموضوع مغلق للرد
+#en: this_users_profile_is_not_public_youll_need_to_create_an_account_and_log_in_to_access_it: This user's profile is not public. You'll need to create an account and log in to access it.
+this_users_profile_is_not_public_youll_need_to_create_an_account_and_log_in_to_access_it: "بيانات هذا العضو سرية ، يجب عليك الاشتراك و الدخول لكى تراها "
+#en: time_constrained: Time constrained
+time_constrained: بوقت محدد
+#en: tips: "Tips:"
+tips: "نصائح"
+#en: title: Title
+title: عنوان
+#en: to_get_recommended_content_on_your_dashboard: to start getting recommended content on your dashboard.
+to_get_recommended_content_on_your_dashboard: "لاضافة محتوى مرشح"
+#en: to_start_adding_friends: To start adding friends, you can
+to_start_adding_friends: "للبدء باضافة الاصدقاء"
+#en: top_writers: Top Writers
+top_writers: أكثر الكتاب مشاركة
+#en: topic_deleted: Topic '{topic}' was deleted.
+topic_deleted: "تم حذف الموضوع"
+#en: type_your_password: "Type your password:"
+type_your_password: "ادخل كلمة السر"
+#en: uh_oh_we_couldnt_log_you_in_with_the_username_and_password_you_entered_try_again: Uh oh. We couldn't log you in with the username and password you entered. Try again?
+uh_oh_we_couldnt_log_you_in_with_the_username_and_password_you_entered_try_again: لاتستطيع الدخول ، اسم العضو او كلمة السر قد يكونوا خطأ
+#en: update: Update
+update: "عدل"
+#en: update_profile_and_tag_yourself: Update your profile and tag yourself
+update_profile_and_tag_yourself: "عدل بيانتك وضع علامة لنفسك "
+#en: update_your_profile: update your profile
+update_your_profile: عدل بياناتك
+#en: updated_their_profile: updated their profile
+updated_their_profile: "عدلوا بياناتهم"
+#en: upload_an_image_for_your_post: Upload an image for your post
+upload_an_image_for_your_post: اضف صورة لمشاركتك
+#en: upload_and_continue_to_step_two: Upload, and continue to step two
+upload_and_continue_to_step_two: ارفع الصورة و اكمل للخطوة الثانية
+#en: uploaded_a_photo: "uploaded a photo:"
+uploaded_a_photo: "الصورة المرفوعة"
+#en: user_e_mail: "User e-mail:"
+user_e_mail: "البريد الالكترونى للعضة"
+#en: username: Username
+username: اسم العضو
+#en: users: Users
+users: الاعضاء
+#en: users_blog: "{user}'s Blog"
+users_blog: مدونات الاعضاء
+#en: users_photos: "{user}'s Photos"
+users_photos: صور الاعضاء
+#en: view_all_my_clippings: View all my clippings
+view_all_my_clippings: قصاصاتى
+#en: view_all_my_photos: View all my photos
+view_all_my_photos: صورى
+#en: view_my_blog: View my blog
+view_my_blog: مدونتى
+#en: view_profile: View profile
+view_profile: بياناتى
+#en: walkthrough_complete: You've completed the {site} walk-through. Now you can continue exploring!
+walkthrough_complete: لقد اكملت جولتك فى الموقع 
+#en: want_to_be_popular: Want to be popular?
+want_to_be_popular: تريد ان تكون مشهورا
+#en: want_to_post_in_this_category: Want to post in this category?
+want_to_post_in_this_category: "أتريد إضافة موضوع فى هذا التصنيف  "
+#en: we_need_you: We need you
+we_need_you: نحن نحتاج إليك
+#en: welcome_message: Welcome! {login_link} or {signup_link}
+welcome_message: "مرحبا"
+#en: what_is_popular: What's Popular
+what_is_popular: ما الأكثر
+#en: whats_fresh: What's fresh
+whats_fresh: ما الجديد
+#en: whats_hot: What's Hot
+whats_hot: "ما الأكثر"
+#en: whats_popular: What's Popular
+whats_popular: ما المشهور
+#en: why_sign_up: Why Sign up?
+why_sign_up: لماذا تشترك
+#en: write_a_blog_post: Write a blog post!
+write_a_blog_post: ! أكتب موضوع فى مدونتك
+#en: write_a_message: "Write a message:"
+write_a_message: ". أكتب رسالة"
+#en: write_new_post: Write a '{category}' post
+write_new_post: أكتب مشاركة جديدة
+#en: wrote_a_post: "wrote a post:"
+wrote_a_post: "كتب مشاركة"
+#en: you_can_browse_all_content_and_users_on: You can browse all content and users on
+you_can_browse_all_content_and_users_on: تستطيع تصفح كل المحتوى و المستخدمين
+#en: you_cant_delete_that_user: You can't delete that user.
+you_cant_delete_that_user: "لا تستطيع حذف هذا المستخدم"
+#en: you_could_tag_yourself: You could tag yourself
+you_could_tag_yourself: بامكانك إضافة علامة لنفسك
+#en: you_have_no_network_activity_yet: You have no network activity yet.
+you_have_no_network_activity_yet: لا يوجد انشطو داخل شبكتك
+#en: you_may_want_to_use_your_company_logo_or_a_photo_of_one_of_your_products_: "You may want to use your company logo, or a photo of one of your products. "
+you_may_want_to_use_your_company_logo_or_a_photo_of_one_of_your_products_: " بإمكانك إستخدام الشعار الخاص بشركتك ، أو صورة منتج من منتجاتك "
+#en: your_about_text_goes_here: Your About Text Goes Here
+your_about_text_goes_here: "سيتم إظهار نبذة عنك هنا"
+#en: your_changes_were_saved: Your changes were saved.
+your_changes_were_saved: ". تم حفظ التعديلات بنجاح"
+#en: your_password_has_been_reset_and_emailed_to_you: Your password has been reset and emailed to you.
+your_password_has_been_reset_and_emailed_to_you: "تم إعادة ضبط كلمة المرور الحالية ، و إرسالها لبريدك الالكترونى"
+#en: your_post_was_deleted: Your post was deleted".
+your_post_was_deleted: "تم حذف مشاركتك بنجاح"
+#en: your_post_was_successfully_created: Your post was successfully created.
+your_post_was_successfully_created: تم إضافة مشاركتك بنجاح
+#en: your_profile_photo: "Your profile photo:"
+your_profile_photo: "صورتك الشخصية"
+#en: your_username_was_emailed_to_you: Your username was emailed to you.
+your_username_was_emailed_to_you: . لقد ارسال إسم المستخدم إلى بريدك الألكترونى 
+#en: youre_editing_your_profile: You're editing your profile.
+youre_editing_your_profile: ". أنت الأن تقوم بتعديل بياناتك"
+#en: youve_been_logged_out_hope_you_come_back_soon: You've been logged out. Hope you come back soon!
+youve_been_logged_out_hope_you_come_back_soon: . لقد تم خروجك من الموقع ، نرجو عودتك قريبا
+#en: zippostal_code: "ZIP/Postal code:"
+zippostal_code: "الرقم البريدى"
+comments_count: تعليقات {count} 
+comment_save_error:  .حدث خطأ عند إضافة التعليق {error}  
+we_just_sent_an_e_mail_to:  لتاكيد اشتراكك <b>{email}</b> لقد ارسلنا رسالة الى البريد الالكترونى 
+look_for_a_message_from:  فى صندوق الوارد الخاص بك {from} ابحث عن رسالة من  
+see_you_back_here_in_a_short_while: نراك هنا فى وقت قريب
+#en: forgot_your_passowrd: Forgot your passowrd?
+forgot_your_password: نسيت كلمة المرور ؟
+no_activation_email: لم تستقبل رسالة تفعيل
+resend_activation_email_link: اعادة ارسال رسالة التفعيل
+user_login: اسم العضو
+metro_areas: محطات المترو
+metro_area: محطة المترو
+#en: comments: Comments
+#en: community_tagline: CommunityEngine Rocks!

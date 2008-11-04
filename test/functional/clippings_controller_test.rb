@@ -68,7 +68,7 @@ class ClippingsControllerTest < Test::Unit::TestCase
         :clipping => {:url => 'http://www.google.com', :image_url => 'http://www.google.com/intl/en/images/logo.gif' },
         :tag_list => 'tag1 tag2'
       assert_redirected_to user_clipping_path(users(:quentin), assigns(:clipping))
-
+      puts assigns(:clipping).id.to_s
       clipping = Clipping.find(assigns(:clipping).id)
       assert_equal ['tag1', 'tag2'], clipping.tag_list
     end    

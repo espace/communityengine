@@ -20,17 +20,18 @@ class Post < ActiveRecord::Base
   
   after_save do |post|
     activity = Activity.find_by_item_type_and_item_id('Post', post.id)
+    puts activity.inspect if activity
     if post.is_live? && !activity
-      post.create_activity_from_self 
     elsif post.is_draft? && activity
       activity.destroy
     end
   end
     
+    
   attr_accessor :invalid_emails
   
   #Named scopes
-  named_scope :by_featured_writers, :conditions => ["users.featured_writer = ?", 1], :include => :user
+  named_scope :by_featured_writers, :conditions => ["users.featured_writer = ?", true], :include => :user
   named_scope :recent, :order => 'posts.published_at DESC'
   named_scope :popular, :order => 'posts.view_count DESC'
   named_scope :since, lambda { |days|
@@ -67,15 +68,19 @@ class Post < ActiveRecord::Base
     self.recent.by_featured_writers.find(:all, :limit => options[:limit] )    
   end
 
-  def self.find_most_commented(limit = 10, since = 7.days.ago)
-    Post.find(:all, 
-      :select => 'posts.*, count(*) as comments_count',
-      :joins => "LEFT JOIN comments ON comments.commentable_id = posts.id",
-      :conditions => ['comments.commentable_type = ? AND posts.published_at > ?', 'Post', since],
-      :group => 'comments.commentable_id',
-      :order => 'comments_count DESC',
-      :limit => limit
-      )
+  def self.find_most_commented(limit = 10, since = 7.days.ago)  
+    Post.find_by_sql("Select posts.* , small_posts.comments_count as total_comments_count from (select comments.commentable_id , count(*) as comments_count 
+       from posts LEFT JOIN comments ON comments.commentable_id = posts.id
+          where comments.commentable_type = 'Post' AND posts.published_at > '"  + since.to_s(:db) + "'
+           group by comments.commentable_id ) as small_posts JOIN posts on small_posts.commentable_id = posts.id order by small_posts.comments_count DESC  LIMIT #{limit} " )
+#    Post.find(:all, 
+#      :select => 'posts.*, count(*) as comments_count',
+#      :joins => "LEFT JOIN comments ON comments.commentable_id = posts.id",
+#      :conditions => ['comments.commentable_type = ? AND posts.published_at > ?', 'Post', since],
+#      :group => "comments.commentable_id",
+#      :order => 'comments_count DESC',
+#      :limit => limit
+#      )
   end
 
   def display_title

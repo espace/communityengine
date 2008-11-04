@@ -2,13 +2,12 @@ class StatisticsController < BaseController
   include Ziya
   before_filter :login_required
   before_filter :admin_required
-
   def index
     @total_users = User.count(:conditions => ['activated_at IS NOT NULL'])
     @unactivated_users = User.count(:conditions => ['activated_at IS NULL'])
     @yesterday_new_users = find_new_users(1.day.ago.midnight, Time.today.midnight)
     @today_new_users = find_new_users(Time.today.midnight, Time.today.tomorrow.midnight)  
-    @active_users_count = Activity.find(:all, :group => "user_id", :conditions => ["created_at > ?", 1.month.ago]).size
+    @active_users_count = Activity.find(:all, :group => " activities.id , #{table_columns_seperated_by_commas('Activity')}" ,  :conditions => ["created_at > ?", 1.month.ago]).uniq.size
 
     @active_users = User.find_by_activity({:since => 1.month.ago})
     
@@ -35,7 +34,7 @@ class StatisticsController < BaseController
     chart = Ziya::Charts::Line.new
     @logins = Activity.count(:group => "date(created_at)", :conditions => ["action = ? AND created_at > ?", 'logged_in', range.days.ago ] )
     @comments = Activity.count(:group => "date(created_at)", :conditions => ["action = ? AND created_at > ?", 'comment', range.days.ago ] )    
-    @posts = Activity.count(:group => "date(created_at)", :conditions => ["action = ? AND created_at > ?", 'post', range.days.ago ] )        
+    @posts = Activity.count(:group => "date(created_at)", :conditions => ["action = ? AND created_at > ?", 'post', range.days.ago ] )       
     @photos = Activity.count(:group => "date(created_at)", :conditions => ["action = ? AND created_at > ?", 'photo', range.days.ago ] )            
     @clippings = Activity.count(:group => "date(created_at)", :conditions => ["action = ? AND created_at > ?", 'clipping', range.days.ago ] )            
 

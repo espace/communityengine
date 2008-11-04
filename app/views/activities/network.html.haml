@@ -10,5 +10,5 @@
       -if @activities.page_count > 1
         .pagination= paginating_links @activities, :link_to_current_page => true
     -else
-      %h3="You have no network activity yet.".l 
+      ="You have no network activity yet.".l 
       = link_to "Add some friends to get started!".l, users_path

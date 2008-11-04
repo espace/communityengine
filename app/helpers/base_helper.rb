@@ -138,8 +138,8 @@ module BaseHelper
           title = @user.login + '\'s clippings &raquo; ' + app_base + tagline
         end
 			when 'tags'
-        if @controller.action_name.eql?('show')
-          title = "#{@tags.map{|t| t.name} } posts, photos, and bookmarks"
+        if @tag and @tag.name
+          title = @tag.name + ' posts, photos, and bookmarks &raquo; ' + app_base + tagline
           title += ' | Related: ' + @related_tags.join(', ')
         else
           title = 'Showing tags &raquo; ' + app_base + tagline

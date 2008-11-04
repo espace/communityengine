@@ -11,5 +11,8 @@ class ApplicationController < ActionController::Base
   #   else
   #     polymorphic_url(comment.commentable)+"#comment_#{comment.id}"      
   #   end
-  # end  
+  # end 
+
+
+
 end

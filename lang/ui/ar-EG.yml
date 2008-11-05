@@ -317,7 +317,7 @@ new_photo: صورة جديدة
 #en: new_post: New post
 new_post: مشاركة جديدة
 #en: new_post_for_category: New {category}
-new_post_for_category: "مشاركة جديدة ى تصنيف { category }"
+new_post_for_category: "مشاركة جديدة ى تصنيف {category}"
 #en: new_post_text: New Post text
 new_post_text: محتوى المشاركة 
 #en: no_comments_found: Sorry, we couldn't find any comments for that {type}
@@ -377,7 +377,7 @@ profile_comments: تعليق على البيانات
 #en: profile_photo: Profile Photo
 profile_photo: صورة شخصية
 #en: published: Published
-published: "نشرت"
+published: "نشر"
 #en: re_type_your_password_to_confirm: "Re-type your password to confirm:"
 read_more: "أقرا المزيد"
 re_type_your_password_to_confirm: "ادخل كلمو المرور للتأكيد"
@@ -443,7 +443,7 @@ service_could_not_be_deleted: ".لا نستطيع حذف الخدمة "
 #en: show: Show
 show: اظهر
 #en: show_category: {category}
-show_category: اظهر تصنيف { category }
+show_category: اظهر تصنيف {category}
 #en: showing_ad: Showing Ad
 showing_ad: اظهار الاعلان
 #en: showing_metro_area_details: Showing Metro Area Details
@@ -635,3 +635,5 @@ metro_areas: محطات المترو
 metro_area: محطة المترو
 #en: comments: Comments
 #en: community_tagline: CommunityEngine Rocks!
+#en :Or
+or: أو

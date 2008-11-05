@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers
+END
+base_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/base_controller.rb
+END
+forums_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/forums_controller.rb
+END
+post_sweeper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/post_sweeper.rb
+END
+friendships_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/friendships_controller.rb
+END
+categories_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/categories_controller.rb
+END
+comments_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/comments_controller.rb
+END
+clippings_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/clippings_controller.rb
+END
+statistics_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/statistics_controller.rb
+END
+sb_posts_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/sb_posts_controller.rb
+END
+monitorships_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/monitorships_controller.rb
+END
+tags_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/tags_controller.rb
+END
+application.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/application.rb
+END
+skills_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/skills_controller.rb
+END
+users_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/users_controller.rb
+END
+sitemap_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/sitemap_controller.rb
+END
+favorites_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/favorites_controller.rb
+END
+events_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/events_controller.rb
+END
+vote_sweeper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/vote_sweeper.rb
+END
+xmlrpc_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/xmlrpc_controller.rb
+END
+sessions_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/sessions_controller.rb
+END
+messages_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/messages_controller.rb
+END
+invitations_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/invitations_controller.rb
+END
+posts_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/posts_controller.rb
+END
+photos_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/photos_controller.rb
+END
+moderators_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/moderators_controller.rb
+END
+offerings_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/offerings_controller.rb
+END
+homepage_features_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/homepage_features_controller.rb
+END
+admin_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/admin_controller.rb
+END
+comment_sweeper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/comment_sweeper.rb
+END
+taggable_sweeper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/taggable_sweeper.rb
+END
+votes_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/votes_controller.rb
+END
+metro_areas_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/metro_areas_controller.rb
+END
+topics_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/topics_controller.rb
+END
+contests_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/contests_controller.rb
+END
+theme_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/theme_controller.rb
+END
+activities_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/activities_controller.rb
+END
+favorite_sweeper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/favorite_sweeper.rb
+END
+ads_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/community/!svn/ver/37/trunk/vendor/plugins/community_engine/app/controllers/ads_controller.rb
+END

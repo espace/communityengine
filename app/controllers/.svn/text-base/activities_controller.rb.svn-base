@@ -7,12 +7,4 @@ class ActivitiesController < BaseController
     @activities = @user.network_activity(:size => 15, :current => params[:page])
   end
 
-def index
-
- @activities = User.recent_activity(:size => 30, :current => 1)
-
- @popular_tags = popular_tags(30, ' count DESC')
-
- end
-
 end
